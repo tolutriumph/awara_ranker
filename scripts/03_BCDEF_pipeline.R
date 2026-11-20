@@ -250,6 +250,12 @@ score_opps <- function(o, w, disc, price, margin, soy, coefs) {
                rank = rank(-score, ties.method = "min"))
 }
 segs <- as.character(sort(unique(sv$segment_id)))
+# utility of the product minus the price term (format + channel + shelf life), per opportunity; same terms as p_choose()
+u_nonprice <- function(coefs, o) unlist(pmap(list(o$segment_id, o$channel, o$shelf_life_days_base), function(s, c, sl) {
+  b <- coefs[[as.character(s)]]; ch_term <- paste0("ch_", c)
+  bc <- if (c == ch_ref) 0 else if (ch_term %in% names(b)) b[[ch_term]] else NA_real_
+  bf <- if (fmt_ref == "fried_seasoned_pack") 0 else b[["fmt_fried_seasoned_pack"]] %||% NA_real_
+  bf + bc + b[["shelf_life"]] * sl }))
 coefs0 <- setNames(map(segs, ~ coef_vec(.x)), segs)
 soy0 <- coalesce(opp0$soy_per_100k_people, (SOY_LO + SOY_HI) / 2)
 base <- score_opps(opp0, W0, CAL_DISCOUNT, opp0$shelf_price_base, opp0$producer_margin_pct_base, soy0, coefs0) %>% arrange(rank)
@@ -272,6 +278,12 @@ run_mc <- function(soy_weight_zero = FALSE) {
   ranks <- matrix(NA_integer_, N_MC, nrow(opp0)); scores <- matrix(NA_real_, N_MC, nrow(opp0))
   S_draw <- array(NA_real_, c(N_MC, nrow(opp0), length(crit)), dimnames = list(NULL, opp0$opportunity, crit))  # for the app
   V_draw <- matrix(NA_real_, N_MC, nrow(opp0))
+  # price model export: keep the values each draw already generated (NO extra RNG calls, so every other output is unchanged)
+  X <- list(disc = numeric(N_MC), P = matrix(NA_real_, N_MC, nrow(ue_s), dimnames = list(NULL, ue_s$state)),
+            C = matrix(NA_real_, N_MC, nrow(ue_s), dimnames = list(NULL, ue_s$state)),
+            b_price = matrix(NA_real_, N_MC, length(segs), dimnames = list(NULL, segs)),
+            asc_none = matrix(NA_real_, N_MC, length(segs), dimnames = list(NULL, segs)),
+            u_nonprice = matrix(NA_real_, N_MC, nrow(opp0), dimnames = list(NULL, opp0$opportunity)))
   for (i in seq_len(N_MC)) {
     w <- rdir(W0, DIR_CONC); if (soy_weight_zero) { w["soy_supply"] <- 0; w <- w / sum(w) }
     disc <- runif(1, 0.3, 0.7)
@@ -284,14 +296,35 @@ run_mc <- function(soy_weight_zero = FALSE) {
     ranks[i, ] <- r$rank; scores[i, ] <- r$score
     for (k in seq_along(crit)) S_draw[i, , k] <- round(r[[paste0("s_", crit[k])]], 2)
     V_draw[i, ] <- r$monthly_volume_packs
+    X$disc[i] <- disc; X$P[i, ] <- P; X$C[i, ] <- C
+    X$b_price[i, ] <- vapply(segs, function(s) cfs[[s]][["price100"]], 0); X$asc_none[i, ] <- vapply(segs, function(s) cfs[[s]][["asc_none"]], 0)
+    X$u_nonprice[i, ] <- u_nonprice(cfs, opp0)
   }
-  list(ranks = ranks, scores = scores, S = S_draw, V = V_draw) }
+  list(ranks = ranks, scores = scores, S = S_draw, V = V_draw, X = X) }
 say("E: Monte Carlo N=", N_MC, " ...")
 mcA <- run_mc(FALSE); mcB <- run_mc(TRUE)
 saveRDS(list(S = mcA$S, volume_p10 = apply(mcA$V, 2, quantile, 0.1), volume_p90 = apply(mcA$V, 2, quantile, 0.9),
              opportunity = opp0$opportunity, criteria = crit, default_weights = W0, n = N_MC,
              note = "criterion scores (0-100) per Monte Carlo draw; app recombines with user weights"),
         file.path(out_dir, "mc_criteria_draws.rds"), compress = "xz")
+# price model: lets the app re-score demand, affordability and margin at any pack price, paired draw-by-draw with
+# mc_criteria_draws.rds (row i here = draw i there). Formulas are those of score_opps() and the MC margin above.
+ue_hi <- ue %>% filter(format == "fried_seasoned_pack") %>% distinct(state, retail_margin_pct_high)
+pm_opp <- opp0 %>% left_join(ue_hi, by = "state") %>%
+  transmute(opportunity, state, segment_id, channel, ppm_per_buyer, shelf_life_days_base,
+            addressable_people = population * segment_share_in_state * eater_channel_share,
+            shelf_price_base, retail_margin_pct_base, retail_margin_pct_high,
+            reported_total_unit_cost_base, reported_total_unit_cost_high, producer_margin_pct_base, producer_margin_pct_stress,
+            b_price_point = vapply(as.character(segment_id), function(s) coefs0[[s]][["price100"]], 0),
+            asc_none_point = vapply(as.character(segment_id), function(s) coefs0[[s]][["asc_none"]], 0),
+            u_nonprice_point = u_nonprice(coefs0, opp0))
+saveRDS(list(opp = pm_opp, draws = c(mcA$X, list(state_idx = idx)), calibration_discount = CAL_DISCOUNT,
+             wtp = maxp %>% transmute(segment_id, max_price_ngn = max_price_150g_pack_ngn),
+             price_range_tested = range(ct$price, na.rm = TRUE),
+             note = paste("p_choose = 1/(1+exp(asc_none - (b_price*price/100 + u_nonprice))); volume = addressable_people*disc*p_choose*ppm_per_buyer;",
+                          "demand = log(max(volume,1)); affordability = share of segment with max price >= price;",
+                          "margin = 100*(price*(1-retail_margin_pct_base/100) - cost)/price. Synthetic inputs.")),
+        file.path(out_dir, "price_model.rds"), compress = "xz")
 summ <- function(mcx, tag) tibble(opportunity = opp0$opportunity,
   !!paste0(tag, "median_score") := apply(mcx$scores, 2, median), !!paste0(tag, "p10") := apply(mcx$scores, 2, quantile, 0.1, na.rm = TRUE),
   !!paste0(tag, "p90") := apply(mcx$scores, 2, quantile, 0.9, na.rm = TRUE), !!paste0(tag, "median_rank") := apply(mcx$ranks, 2, median),

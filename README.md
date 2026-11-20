@@ -12,10 +12,16 @@ All numbers are computed in R; Amazon Bedrock only writes text from those number
 | `outputs/` | Everything the model produced (CSV, JSON, PNG, `mc_criteria_draws.rds`) |
 | `app/` | The Shiny dashboard, the Bedrock client and the explanation script |
 
-Raw data is never committed. Both `inputs/` and `Hack the fork/` are git-ignored, because `Hack the fork/hidden_truth.csv` holds the validation labels.
-The input folder (pass it as `IN_DIR`) must hold: `master_states_final.csv`, `unit_economics_v1b.csv`, `pilot_states.csv`, `seasonality_month.csv`, `channel_density_long.csv`, `survey_responses.csv`, `choice_tasks.csv`, `hidden_truth.csv`.
+Raw data is never committed. `inputs/`, `Hack the fork/` and the data files in `Data all/` are git-ignored, because `Hack the fork/hidden_truth.csv` holds the validation labels. Only the prep scripts and `README_data.md` in `Data all/` are tracked.
+The input folder (`IN_DIR`, default `inputs/`) must hold: `master_states_final.csv`, `unit_economics_v1b.csv`, `pilot_states.csv`, `seasonality_month.csv`, `channel_density_long.csv`, `survey_responses.csv`, `choice_tasks.csv`, `hidden_truth.csv`.
 
-`Hack the fork/` (the challenge download) already has `survey_responses.csv`, `choice_tasks.csv` and `hidden_truth.csv`, and the pipeline reads those raw names directly. The other five come from the data-prep step and must be copied into the same folder before a re-run. Note that `unit_economics.csv` in the download is not the cleaned `unit_economics_v1b.csv`.
+These come from two folders. `Hack the fork/` (the challenge download) has `survey_responses.csv`, `choice_tasks.csv` and `hidden_truth.csv`, and the pipeline reads those raw names directly. `Data all/` (the data-prep step) has the other five. Note that `unit_economics.csv` in the download is not the cleaned `unit_economics_v1b.csv`. Build `inputs/` once (PowerShell, from the project root):
+
+```powershell
+New-Item -ItemType Directory -Force inputs
+Copy-Item "Hack the fork\survey_responses.csv","Hack the fork\choice_tasks.csv","Hack the fork\hidden_truth.csv" inputs\
+Copy-Item "Data all\master_states_final.csv","Data all\unit_economics_v1b.csv","Data all\pilot_states.csv","Data all\seasonality_month.csv","Data all\channel_density_long.csv" inputs\
+```
 
 ## Run it (laptop, no AWS needed)
 
@@ -37,14 +43,16 @@ IN_DIR=../inputs OUT_DIR=../outputs Rscript 03_BCDEF_pipeline.R
 cd ../app && OUT_DIR=../outputs IN_DIR=../inputs Rscript sync_data.R
 ```
 
-To read inputs from the challenge folder instead, use `IN_DIR="../Hack the fork"` (quoted, because of the spaces). On Windows PowerShell:
+On Windows PowerShell (re-running only the pipeline, which also writes `price_model.rds` for the Start page's margin-based pricing):
 
 ```powershell
 cd scripts
-$env:IN_DIR = "../Hack the fork"; $env:OUT_DIR = "../outputs"
+$env:IN_DIR = "../inputs"; $env:OUT_DIR = "../outputs"
 Rscript 03_BCDEF_pipeline.R
 cd ../app; Rscript sync_data.R
 ```
+
+Do not edit a script while `Rscript` is running it: R reads the file as it goes and will pick up the half-edited version.
 Real field data later: replace `survey_responses.csv`, `choice_tasks.csv` (and vendor/unit-economics files), re-run the same commands, and the app re-ranks.
 
 ## At the event: switch on the AI layer (Amazon Bedrock)

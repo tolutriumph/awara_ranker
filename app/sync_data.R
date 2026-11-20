@@ -5,7 +5,7 @@ out_dir <- Sys.getenv("OUT_DIR", "../outputs"); in_dir <- Sys.getenv("IN_DIR", "
 need_out <- c("ranked_opportunities.csv", "opportunity_contributions.csv", "mc_criteria_draws.rds", "screening_37_states.csv",
               "launch_timing.csv", "segment_profiles.csv", "segment_share_by_state.csv", "choice_model_coefficients.csv",
               "segment_validation_confusion.csv", "assumptions.csv", "criteria_correlation.csv", "sensitivity.csv",
-              "llm_input_top10.json", "state_channel_inputs.csv", "rank_stability.csv")
+              "llm_input_top10.json", "state_channel_inputs.csv", "rank_stability.csv", "price_model.rds")
 need_in <- c("seasonality_month.csv")
 dir.create("data", showWarnings = FALSE)
 miss <- c(need_out[!file.exists(file.path(out_dir, need_out))], need_in[!file.exists(file.path(in_dir, need_in))])

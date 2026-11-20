@@ -61,24 +61,29 @@ meta <- rk %>% select(opportunity, state, segment, channel, proxy_flag, soy_impu
          volume_p10 = mc$volume_p10, volume_p90 = mc$volume_p90)
 shelf <- read_csv("data/state_channel_inputs.csv", show_col_types = FALSE) %>% distinct(state, shelf_price_base)
 meta <- meta %>% left_join(shelf, by = "state")
+source("R/price_model.R", local = TRUE)
+pm_load()
 
 # ---------------------------------------------------------------- scoring under any weights
 rank_mat <- function(sc) { r <- t(apply(-sc, 1, rank, ties.method = "min")); dimnames(r) <- dimnames(sc); r }
-score_with <- function(w, jitter = TRUE, conc = 30, n = mc$n) {
+# price = NULL: standard shelf prices (pipeline scores). A number (NGN): demand, affordability and margin re-scored at that
+# 150 g pack price on the standard-price scale (R/price_model.R); scores can then leave 0-100.
+score_with <- function(w, jitter = TRUE, conc = 30, n = mc$n, price = NULL) {
   w <- w / sum(w)
-  point <- as.vector(S0m %*% w)
+  cp <- if (is.null(price)) list(S = mc$S, S0 = S0m) else criteria_at_price(price)
+  point <- as.vector(cp$S0 %*% w)
   set.seed(42)
   W <- if (jitter) { g <- sapply(w, function(a) rgamma(n, shape = conc * a)); g / rowSums(g) } else matrix(w, n, length(w), byrow = TRUE)
   W[is.na(W)] <- 0
-  sc <- Reduce(`+`, lapply(seq_along(CRIT), function(k) mc$S[1:n, , k] * W[, k]))
+  sc <- Reduce(`+`, lapply(seq_along(CRIT), function(k) cp$S[1:n, , k] * W[, k]))
   rkm <- rank_mat(sc)
   tibble(opportunity = OPP, score = point, rank = rank(-point, ties.method = "min"),
          p10 = apply(sc, 2, quantile, 0.10), p50 = apply(sc, 2, median), p90 = apply(sc, 2, quantile, 0.90),
          P1 = colMeans(rkm == 1), P3 = colMeans(rkm <= 3), P5 = colMeans(rkm <= 5), P10 = colMeans(rkm <= 10)) %>%
-    left_join(meta, by = "opportunity") %>% arrange(rank) %>%
-    { attr(., "rank_draws") <- rkm; . }
+    left_join(meta_at_price(price), by = "opportunity") %>% arrange(rank) %>%
+    { attr(., "rank_draws") <- rkm; attr(., "price") <- price; . }
 }
-contrib_with <- function(w) { w <- w / sum(w); sweep(S0m, 2, w, `*`) }
+contrib_with <- function(w, price = NULL) { w <- w / sum(w); sweep(if (is.null(price)) S0m else criteria_at_price(price)$S0, 2, w, `*`) }
 base_default <- score_with(W0)
 w_nosoy <- W0; w_nosoy["soy_supply"] <- 0
 base_nosoy <- score_with(w_nosoy)
@@ -87,8 +92,8 @@ best_months <- function(st) { x <- lt$best_3_months[lt$state == st]; if (!length
 pct <- function(x, d = 0) paste0(formatC(100 * x, format = "f", digits = d), "%")
 num <- function(x) formatC(round(x), format = "d", big.mark = ",")
 
-drivers_of <- function(o, w) {
-  cm <- contrib_with(w); avg <- colMeans(cm); d <- cm[o, ] - avg
+drivers_of <- function(o, w, price = NULL) {
+  cm <- contrib_with(w, price); avg <- colMeans(cm); d <- cm[o, ] - avg
   list(pos = names(sort(d[d > 0], decreasing = TRUE)), neg = names(sort(d[d < 0])), contrib = cm[o, ], avg = avg)
 }
 
