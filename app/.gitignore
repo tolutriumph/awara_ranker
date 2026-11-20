@@ -1,0 +1,12 @@
+# secrets
+.Renviron
+.env
+*.pem
+# raw data stays out of git (team AWS rule)
+inputs/
+raw/
+# R / OS clutter
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store

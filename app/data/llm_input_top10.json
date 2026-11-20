@@ -1,0 +1,522 @@
+{
+  "generated": "2026-11-20",
+  "product": "fried_seasoned_pack 150 g",
+  "top10": [
+    {
+      "rank": 1,
+      "state": "Kaduna",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "restaurant",
+      "score": 72.44,
+      "score_p10": 59.1,
+      "score_p90": 78.96,
+      "P_top3": 0.354,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 12.1
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 11.47
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 3.55
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -3.49
+        }
+      ],
+      "addressable_people": 206685,
+      "p_choose_model": 0.474,
+      "p_buy": 0.237,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.761,
+      "shelf_price_ngn": 670,
+      "monthly_volume_packs": 77434,
+      "volume_p10": 49630,
+      "volume_p90": 106244,
+      "monthly_revenue_ngn": 51880957,
+      "margin_pct_base": 28.7,
+      "margin_pct_stress": -4,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 2,
+      "state": "Kaduna",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "supermarket",
+      "score": 72.01,
+      "score_p10": 58.32,
+      "score_p90": 79.17,
+      "P_top3": 0.408,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 12.1
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 11.47
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 3.55
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -5.78
+        }
+      ],
+      "addressable_people": 472424,
+      "p_choose_model": 0.5925,
+      "p_buy": 0.2962,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.761,
+      "shelf_price_ngn": 670,
+      "monthly_volume_packs": 221232,
+      "volume_p10": 146148,
+      "volume_p90": 297627,
+      "monthly_revenue_ngn": 148225279,
+      "margin_pct_base": 28.7,
+      "margin_pct_stress": -4,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 3,
+      "state": "Benue",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "street_market",
+      "score": 71.67,
+      "score_p10": 60.34,
+      "score_p90": 75.77,
+      "P_top3": 0.26,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 10.41
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 6.77
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 5.73
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "market_demand",
+          "contribution_vs_mean": -1.25
+        }
+      ],
+      "addressable_people": 105925,
+      "p_choose_model": 0.2934,
+      "p_buy": 0.1467,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.694,
+      "shelf_price_ngn": 710,
+      "monthly_volume_packs": 24565,
+      "volume_p10": 15699,
+      "volume_p90": 34392,
+      "monthly_revenue_ngn": 17440963,
+      "margin_pct_base": 29.9,
+      "margin_pct_stress": -1.4,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 4,
+      "state": "Kaduna",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "gym_health_store",
+      "score": 71.58,
+      "score_p10": 57.84,
+      "score_p90": 78.78,
+      "P_top3": 0.306,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 12.1
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 11.47
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 3.55
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -5.78
+        }
+      ],
+      "addressable_people": 342507,
+      "p_choose_model": 0.6426,
+      "p_buy": 0.3213,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.761,
+      "shelf_price_ngn": 670,
+      "monthly_volume_packs": 173965,
+      "volume_p10": 115355,
+      "volume_p90": 233233,
+      "monthly_revenue_ngn": 116556807,
+      "margin_pct_base": 28.7,
+      "margin_pct_stress": -4,
+      "channel_density_proxy": true,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "channel density is a supermarket proxy", "margin negative under stress"]
+    },
+    {
+      "rank": 5,
+      "state": "Kaduna",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "delivery_app",
+      "score": 71.23,
+      "score_p10": 57.25,
+      "score_p90": 78.58,
+      "P_top3": 0.138,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 12.1
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 11.47
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 3.55
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -6.59
+        }
+      ],
+      "addressable_people": 519666,
+      "p_choose_model": 0.5476,
+      "p_buy": 0.2738,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.761,
+      "shelf_price_ngn": 670,
+      "monthly_volume_packs": 224921,
+      "volume_p10": 146797,
+      "volume_p90": 306074,
+      "monthly_revenue_ngn": 150696756,
+      "margin_pct_base": 28.7,
+      "margin_pct_stress": -4,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 6,
+      "state": "Kano",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "street_market",
+      "score": 70.2,
+      "score_p10": 56.53,
+      "score_p90": 74.26,
+      "P_top3": 0.146,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 13.51
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 5.91
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 1.55
+        }
+      ],
+      "top_negative_drivers": [],
+      "addressable_people": 213024,
+      "p_choose_model": 0.3276,
+      "p_buy": 0.1638,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.818,
+      "shelf_price_ngn": 650,
+      "monthly_volume_packs": 55161,
+      "volume_p10": 35600,
+      "volume_p90": 76610,
+      "monthly_revenue_ngn": 35854466,
+      "margin_pct_base": 30,
+      "margin_pct_stress": -1.9,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 7,
+      "state": "FCT",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "delivery_app",
+      "score": 70.07,
+      "score_p10": 56.48,
+      "score_p90": 74.56,
+      "P_top3": 0.208,
+      "top_positive_drivers": [
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 8.64
+        },
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 7.65
+        },
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": 6.38
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": -2.86
+        }
+      ],
+      "addressable_people": 436874,
+      "p_choose_model": 0.5105,
+      "p_buy": 0.2552,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.583,
+      "shelf_price_ngn": 810,
+      "monthly_volume_packs": 176262,
+      "volume_p10": 113426,
+      "volume_p90": 241375,
+      "monthly_revenue_ngn": 142772052,
+      "margin_pct_base": 31.5,
+      "margin_pct_stress": 3.5,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic"]
+    },
+    {
+      "rank": 8,
+      "state": "Benue",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "restaurant",
+      "score": 69.92,
+      "score_p10": 58.49,
+      "score_p90": 74.46,
+      "P_top3": 0.144,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 10.41
+        },
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": 6.77
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 5.73
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -1.38
+        }
+      ],
+      "addressable_people": 185369,
+      "p_choose_model": 0.4161,
+      "p_buy": 0.2081,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.694,
+      "shelf_price_ngn": 710,
+      "monthly_volume_packs": 60970,
+      "volume_p10": 38574,
+      "volume_p90": 83141,
+      "monthly_revenue_ngn": 43289016,
+      "margin_pct_base": 29.9,
+      "margin_pct_stress": -1.4,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    },
+    {
+      "rank": 9,
+      "state": "FCT",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "restaurant",
+      "score": 69.35,
+      "score_p10": 55.64,
+      "score_p90": 73.93,
+      "P_top3": 0.167,
+      "top_positive_drivers": [
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 8.64
+        },
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 7.65
+        },
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": 7.56
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "soy_supply",
+          "contribution_vs_mean": -2.86
+        }
+      ],
+      "addressable_people": 173757,
+      "p_choose_model": 0.437,
+      "p_buy": 0.2185,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.583,
+      "shelf_price_ngn": 810,
+      "monthly_volume_packs": 60020,
+      "volume_p10": 37873,
+      "volume_p90": 82404,
+      "monthly_revenue_ngn": 48616253,
+      "margin_pct_base": 31.5,
+      "margin_pct_stress": 3.5,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic"]
+    },
+    {
+      "rank": 10,
+      "state": "Kano",
+      "segment": "S3 Affluent convenience/health seekers (intent T2B 71%)",
+      "channel": "restaurant",
+      "score": 68.47,
+      "score_p10": 54.63,
+      "score_p90": 73,
+      "P_top3": 0.064,
+      "top_positive_drivers": [
+        {
+          "criterion": "affordability",
+          "contribution_vs_mean": 13.51
+        },
+        {
+          "criterion": "margin",
+          "contribution_vs_mean": 5.91
+        },
+        {
+          "criterion": "market_demand",
+          "contribution_vs_mean": 1.76
+        }
+      ],
+      "top_negative_drivers": [
+        {
+          "criterion": "channel_readiness",
+          "contribution_vs_mean": -2.28
+        }
+      ],
+      "addressable_people": 372791,
+      "p_choose_model": 0.4554,
+      "p_buy": 0.2277,
+      "stated_intent_top2box": 0.712,
+      "share_affording_shelf_price": 0.818,
+      "shelf_price_ngn": 650,
+      "monthly_volume_packs": 134193,
+      "volume_p10": 86579,
+      "volume_p90": 183060,
+      "monthly_revenue_ngn": 87225575,
+      "margin_pct_base": 30,
+      "margin_pct_stress": -1.9,
+      "channel_density_proxy": false,
+      "soy_imputed": false,
+      "data_basis": {
+        "market_demand": "mixed: real population x synthetic survey shares x synthetic choice model",
+        "affordability": "synthetic survey max price vs synthetic shelf price",
+        "margin": "synthetic unit economics (reported totals)",
+        "soy_supply": "real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)",
+        "channel_readiness": "synthetic placeholder, collinear with wealth"
+      },
+      "caveats": ["p_buy ignores competing products", "survey, choice, unit economics and channel data are synthetic", "margin negative under stress"]
+    }
+  ],
+  "key_assumptions": ["gower_variable_types", "pam_k", "gower_na_handling", "segment_naming", "segment_share_in_state", "p_choose", "choice_shelf_life", "addressable_channel_split", "soy_missing_fill", "channel_readiness_scaling", "gym_health_store_density", "calibration_discount", "purchases_per_month", "margin"]
+}

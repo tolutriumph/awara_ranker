@@ -1,0 +1,11 @@
+state,best_3_months,best_3_index,months_tied_at_3rd,n_tied_at_3rd,n_vendors,tie_flag,note,data_basis
+Benue,Feb|Jan|Mar,4.8|2.4|2.4,Jan|Mar,2,4,TRUE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Enugu,Jan|Feb|Mar,2.67|2.67|2.67,Jan|Feb|Mar,3,3,FALSE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+FCT,Jan|Feb|Dec,2.77|2.77|2.77,Jan|Feb|Dec,3,5,FALSE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Kaduna,Jan|Dec|Feb,3.6|3.6|2.4,Feb,1,4,FALSE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Kano,Feb|Jan|Mar,5.33|2.67|2.67,Jan|Mar,2,4,TRUE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Lagos,Nov|Jan|Sep,2.67|2|2,Jan|Sep|Oct,3,6,TRUE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Ogun,Mar|Apr|Jan,5.14|3.43|1.71,Jan|Feb,2,3,TRUE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Oyo,Mar|Apr|Feb,4.8|4.8|2.4,Feb,1,4,FALSE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Plateau,Jan|Dec|Feb,3.27|3.27|2.18,Feb,1,4,FALSE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"
+Rivers,Nov|Jan|Feb,2.67|1.33|1.33,Jan|Feb|Mar|Apr|Sep|Oct|Dec,7,3,TRUE,"months where most vendors report peak sales; tie order = calendar order (arbitrary); n = 3-6 vendors, indicative only","synthetic (vendor peak_months, seasonality_month.csv)"

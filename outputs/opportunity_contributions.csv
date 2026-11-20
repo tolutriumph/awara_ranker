@@ -1,0 +1,901 @@
+opportunity,default_rank,criterion,raw_value,score_0_100,weight,contribution,data_basis
+Kaduna | S3 | restaurant,1,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | restaurant,1,channel_readiness,26.35024549918167,26.350245499181668,0.15,3.95253682487725,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | restaurant,1,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | restaurant,1,market_demand,11.257184659388757,66.60688532448758,0.3,19.982065597346274,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | restaurant,1,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S3 | supermarket,2,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | supermarket,2,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | supermarket,2,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | supermarket,2,market_demand,12.306966118194154,72.81826724262172,0.3,21.845480172786512,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | supermarket,2,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | street_market,3,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | street_market,3,channel_readiness,62.86274509803922,62.86274509803922,0.15,9.429411764705883,"synthetic placeholder, collinear with wealth"
+Benue | S3 | street_market,3,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | street_market,3,market_demand,10.109067239048738,59.81366591222056,0.3,17.944099773666167,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | street_market,3,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S3 | gym_health_store,4,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | gym_health_store,4,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | gym_health_store,4,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | gym_health_store,4,market_demand,12.066611614537216,71.3961297058665,0.3,21.41883891175995,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | gym_health_store,4,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S3 | delivery_app,5,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | delivery_app,5,channel_readiness,5.691056910569106,5.691056910569106,0.15,0.8536585365853658,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | delivery_app,5,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | delivery_app,5,market_demand,12.323502425535795,72.91610981695281,0.3,21.874832945085842,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | delivery_app,5,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | street_market,6,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | street_market,6,channel_readiness,56.4313725490196,56.4313725490196,0.15,8.46470588235294,"synthetic placeholder, collinear with wealth"
+Kano | S3 | street_market,6,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | street_market,6,market_demand,10.918006339749672,64.60002374014722,0.3,19.380007122044166,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | street_market,6,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | delivery_app,7,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | delivery_app,7,channel_readiness,92.10220673635308,92.10220673635307,0.15,13.81533101045296,"synthetic placeholder, collinear with wealth"
+FCT | S3 | delivery_app,7,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | delivery_app,7,market_demand,12.07972562832995,71.4737231396837,0.3,21.44211694190511,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | delivery_app,7,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | restaurant,8,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | restaurant,8,channel_readiness,40.425531914893625,40.425531914893625,0.15,6.063829787234043,"synthetic placeholder, collinear with wealth"
+Benue | S3 | restaurant,8,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | restaurant,8,market_demand,11.018144530097453,65.19252472177885,0.3,19.557757416533654,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | restaurant,8,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | restaurant,9,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | restaurant,9,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+FCT | S3 | restaurant,9,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | restaurant,9,market_demand,11.002434210947783,65.09956938190705,0.3,19.529870814572114,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | restaurant,9,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | restaurant,10,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | restaurant,10,channel_readiness,34.36988543371522,34.36988543371522,0.15,5.155482815057282,"synthetic placeholder, collinear with wealth"
+Kano | S3 | restaurant,10,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | restaurant,10,market_demand,11.807035776419486,69.86026273684637,0.3,20.95807882105391,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | restaurant,10,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | supermarket,11,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | supermarket,11,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S3 | supermarket,11,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | supermarket,11,market_demand,12.865681957810416,76.12409574098054,0.3,22.83722872229416,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | supermarket,11,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S3 | street_market,12,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | street_market,12,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | street_market,12,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | street_market,12,market_demand,10.377773089715417,61.40355364373675,0.3,18.421066093121023,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | street_market,12,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | delivery_app,13,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | delivery_app,13,channel_readiness,7.317073170731708,7.317073170731708,0.15,1.0975609756097562,"synthetic placeholder, collinear with wealth"
+Benue | S3 | delivery_app,13,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | delivery_app,13,market_demand,12.101690520617295,71.60368574632245,0.3,21.481105723896736,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | delivery_app,13,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | supermarket,14,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | supermarket,14,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S3 | supermarket,14,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | supermarket,14,market_demand,12.09580811025687,71.56888050467782,0.3,21.470664151403344,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | supermarket,14,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | gym_health_store,15,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | gym_health_store,15,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S3 | gym_health_store,15,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | gym_health_store,15,market_demand,12.629102493472459,74.72429448266641,0.3,22.41728834479992,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | gym_health_store,15,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | delivery_app,16,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | delivery_app,16,channel_readiness,7.549361207897793,7.549361207897793,0.15,1.132404181184669,"synthetic placeholder, collinear with wealth"
+Kano | S3 | delivery_app,16,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | delivery_app,16,market_demand,12.878850903918956,76.20201420015447,0.3,22.86060426004634,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | delivery_app,16,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | gym_health_store,17,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | gym_health_store,17,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S3 | gym_health_store,17,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | gym_health_store,17,market_demand,11.867490545312071,70.21796352801073,0.3,21.065389058403216,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | gym_health_store,17,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | street_market,18,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | street_market,18,channel_readiness,62.86274509803922,62.86274509803922,0.15,9.429411764705883,"synthetic placeholder, collinear with wealth"
+Benue | S2 | street_market,18,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | street_market,18,market_demand,16.22530044573614,96.00239836548839,0.3,28.800719509646516,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | street_market,18,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | supermarket,19,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | supermarket,19,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S3 | supermarket,19,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | supermarket,19,market_demand,12.06994099778933,71.41582911164019,0.3,21.424748733492056,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | supermarket,19,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | gym_health_store,20,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | gym_health_store,20,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S3 | gym_health_store,20,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | gym_health_store,20,market_demand,11.837182896191948,70.03863821973171,0.3,21.011591465919512,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | gym_health_store,20,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | restaurant,21,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | restaurant,21,channel_readiness,97.29950900163666,97.29950900163666,0.15,14.5949263502455,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | restaurant,21,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | restaurant,21,market_demand,11.738067650765105,69.45218983269666,0.3,20.835656949808996,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | restaurant,21,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | street_market,22,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | street_market,22,channel_readiness,67.60784313725489,67.60784313725489,0.15,10.141176470588233,"synthetic placeholder, collinear with wealth"
+FCT | S3 | street_market,22,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | street_market,22,market_demand,10.103966554325506,59.7834860108761,0.3,17.93504580326283,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | street_market,22,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | street_market,23,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | street_market,23,channel_readiness,33.64705882352942,33.64705882352942,0.15,5.0470588235294125,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | street_market,23,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | street_market,23,market_demand,9.5082651690408,56.25882020340847,0.3,16.87764606102254,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | street_market,23,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | street_market,24,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | street_market,24,channel_readiness,56.4313725490196,56.4313725490196,0.15,8.46470588235294,"synthetic placeholder, collinear with wealth"
+Kano | S2 | street_market,24,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | street_market,24,market_demand,16.900932395423283,100,0.3,30,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | street_market,24,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | street_market,25,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | street_market,25,channel_readiness,62.86274509803922,62.86274509803922,0.15,9.429411764705883,"synthetic placeholder, collinear with wealth"
+Benue | S1 | street_market,25,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | street_market,25,market_demand,12.789842118104499,75.6753640501393,0.3,22.702609215041786,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | street_market,25,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | delivery_app,26,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | delivery_app,26,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | delivery_app,26,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | delivery_app,26,market_demand,11.479795733120387,67.92403794378278,0.3,20.37721138313483,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | delivery_app,26,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | supermarket,27,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | supermarket,27,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | supermarket,27,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | supermarket,27,market_demand,11.46904529342605,67.86042938395417,0.3,20.35812881518625,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | supermarket,27,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | campus_shop,28,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | campus_shop,28,channel_readiness,31.953578336557054,31.95357833655705,0.15,4.793036750483558,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | campus_shop,28,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | campus_shop,28,market_demand,13.520527675561464,79.99870870569708,0.3,23.999612611709125,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | campus_shop,28,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | gym_health_store,29,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | gym_health_store,29,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | gym_health_store,29,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | gym_health_store,29,market_demand,11.235193849060853,66.47676936512275,0.3,19.943030809536825,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | gym_health_store,29,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | delivery_app,30,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | delivery_app,30,channel_readiness,57.37514518002324,57.37514518002324,0.15,8.606271777003485,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | delivery_app,30,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | delivery_app,30,market_demand,12.8216063313742,75.86330760571677,0.3,22.75899228171503,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | delivery_app,30,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | supermarket,31,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | supermarket,31,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | supermarket,31,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | supermarket,31,market_demand,12.815719337181964,75.82847524230331,0.3,22.748542572690994,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | supermarket,31,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | gym_health_store,32,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | gym_health_store,32,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | gym_health_store,32,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | gym_health_store,32,market_demand,12.587396534280296,74.47752727351849,0.3,22.343258182055546,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | gym_health_store,32,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | street_market,33,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | street_market,33,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | street_market,33,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | street_market,33,market_demand,16.43620695495098,97.25029702741045,0.3,29.175089108223133,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | street_market,33,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | restaurant,34,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | restaurant,34,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | restaurant,34,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | restaurant,34,market_demand,10.404062185532716,61.55910184192029,0.3,18.467730552576086,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | restaurant,34,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | delivery_app,35,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | delivery_app,35,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | delivery_app,35,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | delivery_app,35,market_demand,13.134327345757459,77.71362572466234,0.3,23.3140877173987,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | delivery_app,35,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | supermarket,36,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | supermarket,36,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | supermarket,36,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | supermarket,36,market_demand,13.133320835503746,77.70767037125245,0.3,23.312301111375735,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | supermarket,36,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | gym_health_store,37,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | gym_health_store,37,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | gym_health_store,37,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | gym_health_store,37,market_demand,12.910604264039195,76.38989353945553,0.3,22.91696806183666,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | gym_health_store,37,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | street_market,38,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | street_market,38,channel_readiness,56.4313725490196,56.4313725490196,0.15,8.46470588235294,"synthetic placeholder, collinear with wealth"
+Kano | S1 | street_market,38,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | street_market,38,market_demand,14.004749339891475,82.86376758529556,0.3,24.85913027558867,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | street_market,38,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | campus_shop,39,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | campus_shop,39,channel_readiness,95.20309477756284,95.20309477756284,0.15,14.280464216634426,"synthetic placeholder, collinear with wealth"
+FCT | S1 | campus_shop,39,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | campus_shop,39,market_demand,12.480570879275605,73.84545767815332,0.3,22.153637303445997,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | campus_shop,39,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | restaurant,40,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | restaurant,40,channel_readiness,26.35024549918167,26.350245499181668,0.15,3.95253682487725,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | restaurant,40,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | restaurant,40,market_demand,12.546602333874668,74.23615478914198,0.3,22.27084643674259,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | restaurant,40,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | restaurant,41,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | restaurant,41,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | restaurant,41,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | restaurant,41,market_demand,12.043054579089343,71.25674665351933,0.3,21.377023996055797,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | restaurant,41,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | street_market,42,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | street_market,42,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | street_market,42,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | street_market,42,market_demand,13.366333044325353,79.08636477325307,0.3,23.725909431975918,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | street_market,42,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | street_market,43,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | street_market,43,channel_readiness,33.64705882352942,33.64705882352942,0.15,5.0470588235294125,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | street_market,43,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | street_market,43,market_demand,15.653880173332071,92.6213998558511,0.3,27.786419956755328,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | street_market,43,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | restaurant,44,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | restaurant,44,channel_readiness,26.35024549918167,26.350245499181668,0.15,3.95253682487725,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | restaurant,44,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | restaurant,44,market_demand,11.047122164717106,65.36398055594039,0.3,19.609194166782114,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | restaurant,44,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | campus_shop,45,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | campus_shop,45,channel_readiness,35.628626692456464,35.628626692456464,0.15,5.34429400386847,"synthetic placeholder, collinear with wealth"
+Kano | S1 | campus_shop,45,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | campus_shop,45,market_demand,14.161814685911773,83.7930970586377,0.3,25.13792911759131,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | campus_shop,45,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | restaurant,46,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | restaurant,46,channel_readiness,40.425531914893625,40.425531914893625,0.15,6.063829787234043,"synthetic placeholder, collinear with wealth"
+Benue | S2 | restaurant,46,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | restaurant,46,market_demand,12.294091481519665,72.74209016331469,0.3,21.822627048994406,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | restaurant,46,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | street_market,47,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | street_market,47,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | street_market,47,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | street_market,47,market_demand,11.121113546672118,65.8017752303635,0.3,19.74053256910905,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | street_market,47,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | street_market,48,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | street_market,48,channel_readiness,67.60784313725489,67.60784313725489,0.15,10.141176470588233,"synthetic placeholder, collinear with wealth"
+FCT | S2 | street_market,48,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | street_market,48,market_demand,13.610266516438207,80.52967846983296,0.3,24.158903540949886,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | street_market,48,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | supermarket,49,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | supermarket,49,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | supermarket,49,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | supermarket,49,market_demand,11.525536709402676,68.19467967651154,0.3,20.45840390295346,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | supermarket,49,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | campus_shop,50,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | campus_shop,50,channel_readiness,12.688588007736936,12.688588007736934,0.15,1.90328820116054,"synthetic placeholder, collinear with wealth"
+Benue | S1 | campus_shop,50,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | campus_shop,50,market_demand,12.935347486243444,76.53629506113103,0.3,22.960888518339306,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | campus_shop,50,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | restaurant,51,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | restaurant,51,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+FCT | S1 | restaurant,51,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | restaurant,51,market_demand,9.942252317217251,58.82664982382617,0.3,17.64799494714785,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | restaurant,51,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | restaurant,52,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | restaurant,52,channel_readiness,40.425531914893625,40.425531914893625,0.15,6.063829787234043,"synthetic placeholder, collinear with wealth"
+Benue | S1 | restaurant,52,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | restaurant,52,market_demand,10.441221538495254,61.77896753981871,0.3,18.533690261945612,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | restaurant,52,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | street_market,53,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | street_market,53,channel_readiness,33.607843137254896,33.607843137254896,0.15,5.041176470588234,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | street_market,53,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | street_market,53,market_demand,10.829002655561652,64.07340377560537,0.3,19.22202113268161,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | street_market,53,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | delivery_app,54,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | delivery_app,54,channel_readiness,5.691056910569106,5.691056910569106,0.15,0.8536585365853658,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | delivery_app,54,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | delivery_app,54,market_demand,11.454366237557874,67.77357585703189,0.3,20.332072757109565,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | delivery_app,54,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | supermarket,55,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | supermarket,55,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | supermarket,55,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | supermarket,55,market_demand,12.647647581597624,74.83402267807762,0.3,22.450206803423285,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | supermarket,55,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | supermarket,56,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | supermarket,56,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | supermarket,56,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | supermarket,56,market_demand,11.831619770943343,70.00572213487646,0.3,21.001716640462938,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | supermarket,56,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | delivery_app,57,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | delivery_app,57,channel_readiness,92.10220673635308,92.10220673635307,0.15,13.81533101045296,"synthetic placeholder, collinear with wealth"
+FCT | S1 | delivery_app,57,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | delivery_app,57,market_demand,10.305912545125029,60.97836677884018,0.3,18.293510033652055,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | delivery_app,57,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | street_market,58,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | street_market,58,channel_readiness,67.60784313725489,67.60784313725489,0.15,10.141176470588233,"synthetic placeholder, collinear with wealth"
+FCT | S1 | street_market,58,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | street_market,58,market_demand,12.354481274358514,73.09940650199907,0.3,21.92982195059972,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | street_market,58,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S3 | campus_shop,59,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Kaduna | S3 | campus_shop,59,channel_readiness,31.953578336557054,31.95357833655705,0.15,4.793036750483558,"synthetic placeholder, collinear with wealth"
+Kaduna | S3 | campus_shop,59,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S3 | campus_shop,59,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S3 | campus_shop,59,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S1 | gym_health_store,60,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Kaduna | S1 | gym_health_store,60,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S1 | gym_health_store,60,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S1 | gym_health_store,60,market_demand,10.896316697469777,64.4716897419249,0.3,19.34150692257747,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S1 | gym_health_store,60,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | delivery_app,61,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | delivery_app,61,channel_readiness,65.38908246225319,65.38908246225319,0.15,9.808362369337978,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | delivery_app,61,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | delivery_app,61,market_demand,12.658882625664015,74.90049856120363,0.3,22.47014956836109,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | delivery_app,61,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | gym_health_store,62,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | gym_health_store,62,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | gym_health_store,62,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | gym_health_store,62,market_demand,12.413248388931388,73.44712172384557,0.3,22.03413651715367,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | gym_health_store,62,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | restaurant,63,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | restaurant,63,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+FCT | S2 | restaurant,63,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | restaurant,63,market_demand,9.563729954336498,56.586996093341725,0.3,16.976098828002517,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | restaurant,63,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | street_market,64,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | street_market,64,channel_readiness,33.64705882352942,33.64705882352942,0.15,5.0470588235294125,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | street_market,64,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | street_market,64,market_demand,12.906963760864247,76.36835328895471,0.3,22.910505986686413,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | street_market,64,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | gym_health_store,65,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | gym_health_store,65,channel_readiness,11.061946902654867,11.061946902654867,0.15,1.6592920353982301,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | gym_health_store,65,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | gym_health_store,65,market_demand,11.254926915749738,66.59352663168771,0.3,19.97805798950631,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | gym_health_store,65,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | restaurant,66,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | restaurant,66,channel_readiness,34.36988543371522,34.36988543371522,0.15,5.155482815057282,"synthetic placeholder, collinear with wealth"
+Kano | S2 | restaurant,66,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | restaurant,66,market_demand,13.037566471016243,77.14110775655652,0.3,23.142332326966955,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | restaurant,66,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | campus_shop,67,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | campus_shop,67,channel_readiness,31.953578336557054,31.95357833655705,0.15,4.793036750483558,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | campus_shop,67,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | campus_shop,67,market_demand,9.142053368895198,54.0920060207497,0.3,16.22760180622491,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | campus_shop,67,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | restaurant,68,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | restaurant,68,channel_readiness,34.36988543371522,34.36988543371522,0.15,5.155482815057282,"synthetic placeholder, collinear with wealth"
+Kano | S1 | restaurant,68,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | restaurant,68,market_demand,11.69539049038296,69.19967618798377,0.3,20.75990285639513,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | restaurant,68,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | delivery_app,69,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | delivery_app,69,channel_readiness,77.70034843205576,77.70034843205576,0.15,11.655052264808363,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | delivery_app,69,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | delivery_app,69,market_demand,12.46382010030247,73.746346110926,0.3,22.123903833277797,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | delivery_app,69,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | supermarket,70,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | supermarket,70,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | supermarket,70,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | supermarket,70,market_demand,11.751865946050318,69.5338320460514,0.3,20.86014961381542,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | supermarket,70,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | supermarket,71,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | supermarket,71,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | supermarket,71,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | supermarket,71,market_demand,12.454040035925853,73.68847910011382,0.3,22.106543730034147,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | supermarket,71,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | street_market,72,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | street_market,72,channel_readiness,69.96078431372547,69.96078431372547,0.15,10.49411764705882,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | street_market,72,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | street_market,72,market_demand,10.689482059996605,63.24788366641406,0.3,18.974365099924217,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | street_market,72,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | restaurant,73,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | restaurant,73,channel_readiness,97.29950900163666,97.29950900163666,0.15,14.5949263502455,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | restaurant,73,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | restaurant,73,market_demand,11.390556452798954,67.3960239961878,0.3,20.218807198856336,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | restaurant,73,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | gym_health_store,74,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | gym_health_store,74,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | gym_health_store,74,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | gym_health_store,74,market_demand,11.518014501685123,68.15017202722001,0.3,20.445051608166,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | gym_health_store,74,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | gym_health_store,75,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | gym_health_store,75,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | gym_health_store,75,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | gym_health_store,75,market_demand,12.22128710879741,72.31131882467558,0.3,21.693395647402674,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | gym_health_store,75,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kaduna | S2 | delivery_app,76,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Kaduna | S2 | delivery_app,76,channel_readiness,5.691056910569106,5.691056910569106,0.15,0.8536585365853658,"synthetic placeholder, collinear with wealth"
+Kaduna | S2 | delivery_app,76,margin,28.7,74.54545454545453,0.2,14.909090909090907,synthetic unit economics (reported totals)
+Kaduna | S2 | delivery_app,76,market_demand,10.26112069431361,60.7133408633259,0.3,18.21400225899777,mixed: real population x synthetic survey shares x synthetic choice model
+Kaduna | S2 | delivery_app,76,soy_supply,3762.328800293449,99.99999999999999,0.15,14.999999999999996,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | delivery_app,77,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | delivery_app,77,channel_readiness,7.317073170731708,7.317073170731708,0.15,1.0975609756097562,"synthetic placeholder, collinear with wealth"
+Benue | S1 | delivery_app,77,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | delivery_app,77,market_demand,10.834035109806898,64.10317996858397,0.3,19.23095399057519,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | delivery_app,77,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | supermarket,78,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | supermarket,78,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S1 | supermarket,78,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | supermarket,78,market_demand,10.914936187736059,64.58185816240403,0.3,19.37455744872121,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | supermarket,78,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | restaurant,79,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | restaurant,79,channel_readiness,97.29950900163666,97.29950900163666,0.15,14.5949263502455,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | restaurant,79,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | restaurant,79,market_demand,11.612450863920618,68.70893624227045,0.3,20.612680872681135,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | restaurant,79,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S3 | campus_shop,80,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+FCT | S3 | campus_shop,80,channel_readiness,95.20309477756284,95.20309477756284,0.15,14.280464216634426,"synthetic placeholder, collinear with wealth"
+FCT | S3 | campus_shop,80,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S3 | campus_shop,80,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S3 | campus_shop,80,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | supermarket,81,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | supermarket,81,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S1 | supermarket,81,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | supermarket,81,market_demand,10.406331854280802,61.572531093602876,0.3,18.47175932808086,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | supermarket,81,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | street_market,82,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | street_market,82,channel_readiness,89.88235294117646,89.88235294117646,0.15,13.482352941176469,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | street_market,82,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | street_market,82,market_demand,10.488041086782763,62.055991003330035,0.3,18.61679730099901,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | street_market,82,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | supermarket,83,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | supermarket,83,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S2 | supermarket,83,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | supermarket,83,market_demand,11.563665848959124,68.42028344004575,0.3,20.526085032013725,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | supermarket,83,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | restaurant,84,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | restaurant,84,channel_readiness,51.96399345335517,51.96399345335517,0.15,7.794599018003275,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | restaurant,84,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | restaurant,84,market_demand,10.686882838156984,63.23250450401753,0.3,18.969751351205257,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | restaurant,84,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | restaurant,85,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | restaurant,85,channel_readiness,50.65466448445171,50.65466448445171,0.15,7.598199672667755,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | restaurant,85,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | restaurant,85,market_demand,11.583932238061106,68.54019628643682,0.3,20.562058885931048,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | restaurant,85,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | supermarket,86,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | supermarket,86,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S1 | supermarket,86,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | supermarket,86,market_demand,12.17541570179704,72.03990535512764,0.3,21.611971606538294,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | supermarket,86,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S1 | gym_health_store,87,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Benue | S1 | gym_health_store,87,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S1 | gym_health_store,87,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S1 | gym_health_store,87,market_demand,10.28132822176382,60.83290543513428,0.3,18.249871630540284,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S1 | gym_health_store,87,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | gym_health_store,88,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | gym_health_store,88,channel_readiness,5.752212389380525,5.752212389380526,0.15,0.8628318584070789,"synthetic placeholder, collinear with wealth"
+Benue | S2 | gym_health_store,88,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | gym_health_store,88,market_demand,10.991938763089387,65.0374695662706,0.3,19.51124086988118,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | gym_health_store,88,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S1 | gym_health_store,89,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+FCT | S1 | gym_health_store,89,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S1 | gym_health_store,89,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S1 | gym_health_store,89,market_demand,9.763851539500864,57.771082157247626,0.3,17.331324647174288,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S1 | gym_health_store,89,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | campus_shop,90,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | campus_shop,90,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | campus_shop,90,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | campus_shop,90,market_demand,13.055042867330785,77.24451268064979,0.3,23.173353804194935,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | campus_shop,90,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | delivery_app,91,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | delivery_app,91,channel_readiness,7.549361207897793,7.549361207897793,0.15,1.132404181184669,"synthetic placeholder, collinear with wealth"
+Kano | S1 | delivery_app,91,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | delivery_app,91,market_demand,12.10761246178681,71.63872488517563,0.3,21.49161746555269,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | delivery_app,91,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S3 | campus_shop,92,affordability,0.8175675675675675,100,0.2,20,synthetic survey max price vs synthetic shelf price
+Kano | S3 | campus_shop,92,channel_readiness,35.628626692456464,35.628626692456464,0.15,5.34429400386847,"synthetic placeholder, collinear with wealth"
+Kano | S3 | campus_shop,92,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S3 | campus_shop,92,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S3 | campus_shop,92,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | delivery_app,93,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | delivery_app,93,channel_readiness,29.965156794425088,29.965156794425088,0.15,4.494773519163763,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | delivery_app,93,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | delivery_app,93,market_demand,11.762616385744657,69.59744060588004,0.3,20.87923218176401,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | delivery_app,93,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | supermarket,94,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | supermarket,94,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S2 | supermarket,94,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | supermarket,94,market_demand,12.33278912334167,72.97105765999838,0.3,21.891317297999514,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | supermarket,94,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | street_market,95,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | street_market,95,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | street_market,95,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | street_market,95,market_demand,14.749843933274077,87.27236810478152,0.3,26.181710431434457,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | street_market,95,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S1 | gym_health_store,96,affordability,0.12668463611859837,13.658657072755302,0.2,2.7317314145510605,synthetic survey max price vs synthetic shelf price
+Kano | S1 | gym_health_store,96,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S1 | gym_health_store,96,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S1 | gym_health_store,96,market_demand,11.54770866296372,68.32586743019456,0.3,20.49776022905837,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S1 | gym_health_store,96,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | delivery_app,97,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | delivery_app,97,channel_readiness,92.10220673635308,92.10220673635307,0.15,13.81533101045296,"synthetic placeholder, collinear with wealth"
+FCT | S2 | delivery_app,97,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | delivery_app,97,market_demand,7.207300888698671,42.644398072679024,0.3,12.793319421803707,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | delivery_app,97,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | street_market,98,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | street_market,98,channel_readiness,50.3921568627451,50.3921568627451,0.15,7.5588235294117645,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | street_market,98,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | street_market,98,market_demand,9.791085821665071,57.93222286550572,0.3,17.379666859651717,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | street_market,98,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | street_market,99,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | street_market,99,channel_readiness,33.607843137254896,33.607843137254896,0.15,5.041176470588234,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | street_market,99,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | street_market,99,market_demand,15.646164339804097,92.57574655491213,0.3,27.772723966473638,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | street_market,99,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | restaurant,100,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | restaurant,100,channel_readiness,63.99345335515548,63.99345335515548,0.15,9.599018003273322,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | restaurant,100,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | restaurant,100,market_demand,11.386521326936338,67.37214882901827,0.3,20.21164464870548,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | restaurant,100,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | gym_health_store,101,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | gym_health_store,101,channel_readiness,11.946902654867252,11.946902654867252,0.15,1.7920353982300876,"synthetic placeholder, collinear with wealth"
+Kano | S2 | gym_health_store,101,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | gym_health_store,101,market_demand,11.752786136522895,69.53927665970377,0.3,20.86178299791113,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | gym_health_store,101,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | campus_shop,102,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | campus_shop,102,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | campus_shop,102,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | campus_shop,102,market_demand,13.813542422234667,81.73242812316869,0.3,24.519728436950604,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | campus_shop,102,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | delivery_app,103,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | delivery_app,103,channel_readiness,7.317073170731708,7.317073170731708,0.15,1.0975609756097562,"synthetic placeholder, collinear with wealth"
+Benue | S2 | delivery_app,103,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | delivery_app,103,market_demand,9.988190191609597,59.098456569853894,0.3,17.72953697095617,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | delivery_app,103,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | campus_shop,104,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | campus_shop,104,channel_readiness,35.628626692456464,35.628626692456464,0.15,5.34429400386847,"synthetic placeholder, collinear with wealth"
+Kano | S2 | campus_shop,104,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | campus_shop,104,market_demand,9.646785472010125,57.078421748035886,0.3,17.123526524410764,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | campus_shop,104,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | street_market,105,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | street_market,105,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | street_market,105,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | street_market,105,market_demand,13.68895644835461,80.995273681241,0.3,24.2985821043723,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | street_market,105,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S3 | campus_shop,106,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Benue | S3 | campus_shop,106,channel_readiness,12.688588007736936,12.688588007736934,0.15,1.90328820116054,"synthetic placeholder, collinear with wealth"
+Benue | S3 | campus_shop,106,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S3 | campus_shop,106,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S3 | campus_shop,106,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | campus_shop,107,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | campus_shop,107,channel_readiness,95.20309477756284,95.20309477756284,0.15,14.280464216634426,"synthetic placeholder, collinear with wealth"
+FCT | S2 | campus_shop,107,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | campus_shop,107,market_demand,6.087141016523838,36.01659881304665,0.3,10.804979643913994,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | campus_shop,107,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | supermarket,108,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | supermarket,108,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S2 | supermarket,108,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | supermarket,108,market_demand,8.794764003789984,52.03715273230474,0.3,15.611145819691421,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | supermarket,108,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Benue | S2 | campus_shop,109,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Benue | S2 | campus_shop,109,channel_readiness,12.688588007736936,12.688588007736934,0.15,1.90328820116054,"synthetic placeholder, collinear with wealth"
+Benue | S2 | campus_shop,109,margin,29.9,85.45454545454544,0.2,17.09090909090909,synthetic unit economics (reported totals)
+Benue | S2 | campus_shop,109,market_demand,8.868800308545163,52.475213207448874,0.3,15.742563962234662,mixed: real population x synthetic survey shares x synthetic choice model
+Benue | S2 | campus_shop,109,soy_supply,2656.5307905745244,68.66882282561329,0.15,10.300323423841993,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | street_market,110,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | street_market,110,channel_readiness,33.607843137254896,33.607843137254896,0.15,5.041176470588234,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | street_market,110,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | street_market,110,market_demand,13.798153366980232,81.64137364821794,0.3,24.49241209446538,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | street_market,110,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | delivery_app,111,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | delivery_app,111,channel_readiness,57.37514518002324,57.37514518002324,0.15,8.606271777003485,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | delivery_app,111,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | delivery_app,111,market_demand,11.756249943483796,69.55977142815713,0.3,20.86793142844714,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | delivery_app,111,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | supermarket,112,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | supermarket,112,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | supermarket,112,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | supermarket,112,market_demand,11.855314087675312,70.14591745770011,0.3,21.043775237310033,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | supermarket,112,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+FCT | S2 | gym_health_store,113,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+FCT | S2 | gym_health_store,113,channel_readiness,61.946902654867245,61.946902654867245,0.15,9.292035398230086,"synthetic placeholder, collinear with wealth"
+FCT | S2 | gym_health_store,113,margin,31.5,100,0.2,20,synthetic unit economics (reported totals)
+FCT | S2 | gym_health_store,113,market_demand,8.235204002961874,48.72632947275702,0.3,14.617898841827106,mixed: real population x synthetic survey shares x synthetic choice model
+FCT | S2 | gym_health_store,113,soy_supply,390.9554787337537,4.477043790631727,0.15,0.6715565685947591,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | supermarket,114,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | supermarket,114,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | supermarket,114,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | supermarket,114,market_demand,11.042070998445643,65.3340936470215,0.3,19.600228094106452,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | supermarket,114,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Kano | S2 | delivery_app,115,affordability,0.0782608695652174,7.607019604963655,0.2,1.5214039209927313,synthetic survey max price vs synthetic shelf price
+Kano | S2 | delivery_app,115,channel_readiness,7.549361207897793,7.549361207897793,0.15,1.132404181184669,"synthetic placeholder, collinear with wealth"
+Kano | S2 | delivery_app,115,margin,30,86.36363636363636,0.2,17.272727272727273,synthetic unit economics (reported totals)
+Kano | S2 | delivery_app,115,market_demand,10.765635029337199,63.69846809311242,0.3,19.109540427933723,mixed: real population x synthetic survey shares x synthetic choice model
+Kano | S2 | delivery_app,115,soy_supply,1429.2640520483153,33.89600601183536,0.15,5.084400901775304,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | delivery_app,116,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | delivery_app,116,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | delivery_app,116,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | delivery_app,116,market_demand,10.96398235504,64.87205615951112,0.3,19.461616847853335,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | delivery_app,116,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | restaurant,117,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | restaurant,117,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | restaurant,117,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | restaurant,117,market_demand,11.73172833216689,69.41468114116475,0.3,20.824404342349425,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | restaurant,117,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | gym_health_store,118,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | gym_health_store,118,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | gym_health_store,118,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | gym_health_store,118,market_demand,11.213452838610754,66.34813142999921,0.3,19.904439428999762,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | gym_health_store,118,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | restaurant,119,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | restaurant,119,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | restaurant,119,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | restaurant,119,market_demand,10.566990961895078,62.523124255301944,0.3,18.756937276590584,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | restaurant,119,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S1 | gym_health_store,120,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Plateau | S1 | gym_health_store,120,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S1 | gym_health_store,120,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S1 | gym_health_store,120,market_demand,10.409733690538223,61.59265919173279,0.3,18.477797757519838,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S1 | gym_health_store,120,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | supermarket,121,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | supermarket,121,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | supermarket,121,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | supermarket,121,market_demand,11.73529531398229,69.43578637803539,0.3,20.830735913410617,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | supermarket,121,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | delivery_app,122,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | delivery_app,122,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | delivery_app,122,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | delivery_app,122,market_demand,11.633478911930828,68.83335569747109,0.3,20.650006709241328,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | delivery_app,122,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | supermarket,123,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | supermarket,123,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | supermarket,123,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | supermarket,123,market_demand,11.004590098476127,65.11232540907703,0.3,19.533697622723107,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | supermarket,123,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S1 | campus_shop,124,affordability,0.06199460916442048,5.574184947341484,0.2,1.1148369894682968,synthetic survey max price vs synthetic shelf price
+Ogun | S1 | campus_shop,124,channel_readiness,14.042553191489358,14.042553191489358,0.15,2.1063829787234036,"synthetic placeholder, collinear with wealth"
+Ogun | S1 | campus_shop,124,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S1 | campus_shop,124,market_demand,13.925685919256928,82.39596250339395,0.3,24.718788751018185,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S1 | campus_shop,124,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | restaurant,125,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | restaurant,125,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | restaurant,125,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | restaurant,125,market_demand,11.271916300038567,66.69404998679816,0.3,20.00821499603945,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | restaurant,125,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | supermarket,126,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | supermarket,126,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | supermarket,126,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | supermarket,126,market_demand,10.847484402339964,64.18275719082474,0.3,19.254827157247423,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | supermarket,126,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S1 | gym_health_store,127,affordability,0.04043126684636118,2.8793609055368776,0.2,0.5758721811073756,synthetic survey max price vs synthetic shelf price
+Lagos | S1 | gym_health_store,127,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S1 | gym_health_store,127,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S1 | gym_health_store,127,market_demand,11.092176302903718,65.63055838213661,0.3,19.68916751464098,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S1 | gym_health_store,127,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | gym_health_store,128,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | gym_health_store,128,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | gym_health_store,128,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | gym_health_store,128,market_demand,10.43181029531269,61.72328278253803,0.3,18.51698483476141,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | gym_health_store,128,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | gym_health_store,129,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | gym_health_store,129,channel_readiness,56.19469026548672,56.19469026548673,0.15,8.429203539823009,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | gym_health_store,129,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | gym_health_store,129,market_demand,10.286676666171894,60.8645512892383,0.3,18.25936538677149,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | gym_health_store,129,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S3 | campus_shop,130,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Plateau | S3 | campus_shop,130,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S3 | campus_shop,130,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S3 | campus_shop,130,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S3 | campus_shop,130,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | campus_shop,131,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | campus_shop,131,channel_readiness,75.58994197292068,75.58994197292068,0.15,11.338491295938102,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | campus_shop,131,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | campus_shop,131,market_demand,13.229649935314823,78.27763359906326,0.3,23.48329007971898,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | campus_shop,131,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | street_market,132,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | street_market,132,channel_readiness,69.96078431372547,69.96078431372547,0.15,10.49411764705882,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | street_market,132,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | street_market,132,market_demand,15.24852664376881,90.222990584224,0.3,27.066897175267197,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | street_market,132,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | restaurant,133,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | restaurant,133,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | restaurant,133,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | restaurant,133,market_demand,10.70787611621885,63.35671823122911,0.3,19.00701546936873,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | restaurant,133,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | campus_shop,134,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | campus_shop,134,channel_readiness,96.247582205029,96.247582205029,0.15,14.43713733075435,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | campus_shop,134,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | campus_shop,134,market_demand,13.498554368600422,79.86869631083658,0.3,23.960608893250974,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | campus_shop,134,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | delivery_app,135,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | delivery_app,135,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | delivery_app,135,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | delivery_app,135,market_demand,9.430165323500532,55.796716434734634,0.3,16.73901493042039,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | delivery_app,135,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | street_market,136,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | street_market,136,channel_readiness,89.88235294117646,89.88235294117646,0.15,13.482352941176469,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | street_market,136,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | street_market,136,market_demand,14.598664004006702,86.37786166140735,0.3,25.913358498422205,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | street_market,136,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | delivery_app,137,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | delivery_app,137,channel_readiness,57.37514518002324,57.37514518002324,0.15,8.606271777003485,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | delivery_app,137,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | delivery_app,137,market_demand,9.261237341239054,54.797197719972935,0.3,16.43915931599188,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | delivery_app,137,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | street_market,138,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | street_market,138,channel_readiness,69.96078431372547,69.96078431372547,0.15,10.49411764705882,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | street_market,138,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | street_market,138,market_demand,13.608905766166401,80.52162713727941,0.3,24.15648814118382,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | street_market,138,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | supermarket,139,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | supermarket,139,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | supermarket,139,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | supermarket,139,market_demand,9.940327438271675,58.81526063593677,0.3,17.64457819078103,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | supermarket,139,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | street_market,140,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | street_market,140,channel_readiness,89.88235294117646,89.88235294117646,0.15,13.482352941176469,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | street_market,140,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | street_market,140,market_demand,13.354336294244872,79.01538200259995,0.3,23.704614600779983,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | street_market,140,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | street_market,141,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | street_market,141,channel_readiness,50.3921568627451,50.3921568627451,0.15,7.5588235294117645,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | street_market,141,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | street_market,141,market_demand,15.034798831534285,88.95839874257861,0.3,26.687519622773582,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | street_market,141,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | campus_shop,142,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | campus_shop,142,channel_readiness,64.79690522243712,64.79690522243712,0.15,9.719535783365567,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | campus_shop,142,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | campus_shop,142,market_demand,13.758860362267896,81.40888348854499,0.3,24.422665046563495,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | campus_shop,142,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | gym_health_store,143,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | gym_health_store,143,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | gym_health_store,143,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | gym_health_store,143,market_demand,9.380325678419672,55.5018235618754,0.3,16.65054706856262,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | gym_health_store,143,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Plateau | S2 | campus_shop,144,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Plateau | S2 | campus_shop,144,channel_readiness,0,0,0.15,0,"synthetic placeholder, collinear with wealth"
+Plateau | S2 | campus_shop,144,margin,30.4,89.99999999999999,0.2,17.999999999999996,synthetic unit economics (reported totals)
+Plateau | S2 | campus_shop,144,market_demand,8.310843411212762,49.17387524408601,0.3,14.752162573225803,mixed: real population x synthetic survey shares x synthetic choice model
+Plateau | S2 | campus_shop,144,soy_supply,1233.3239764310829,28.344329149723205,0.15,4.2516493724584805,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | street_market,145,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | street_market,145,channel_readiness,50.3921568627451,50.3921568627451,0.15,7.5588235294117645,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | street_market,145,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | street_market,145,market_demand,13.081570828848285,77.40147420736818,0.3,23.220442262210454,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | street_market,145,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | delivery_app,146,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | delivery_app,146,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | delivery_app,146,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | delivery_app,146,market_demand,8.353294522924859,49.42505139649517,0.3,14.82751541894855,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | delivery_app,146,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | supermarket,147,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | supermarket,147,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | supermarket,147,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | supermarket,147,market_demand,11.751356881825842,69.53081999788408,0.3,20.859245999365225,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | supermarket,147,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S3 | campus_shop,148,affordability,0.5833333333333334,70.7271703747216,0.2,14.145434074944319,synthetic survey max price vs synthetic shelf price
+Lagos | S3 | campus_shop,148,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S3 | campus_shop,148,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S3 | campus_shop,148,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S3 | campus_shop,148,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | delivery_app,149,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | delivery_app,149,channel_readiness,65.38908246225319,65.38908246225319,0.15,9.808362369337978,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | delivery_app,149,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | delivery_app,149,market_demand,11.675354017331724,69.08112371654343,0.3,20.724337114963028,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | delivery_app,149,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | gym_health_store,150,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | gym_health_store,150,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | gym_health_store,150,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | gym_health_store,150,market_demand,11.11996066387642,65.79495381501951,0.3,19.738486144505853,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | gym_health_store,150,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Lagos | S2 | campus_shop,151,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Lagos | S2 | campus_shop,151,channel_readiness,100,100,0.15,15,"synthetic placeholder, collinear with wealth"
+Lagos | S2 | campus_shop,151,margin,24,31.818181818181817,0.2,6.363636363636363,synthetic unit economics (reported totals)
+Lagos | S2 | campus_shop,151,market_demand,7.23316211414303,42.797414633181695,0.3,12.839224389954508,mixed: real population x synthetic survey shares x synthetic choice model
+Lagos | S2 | campus_shop,151,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | delivery_app,152,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | delivery_app,152,channel_readiness,77.70034843205576,77.70034843205576,0.15,11.655052264808363,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | delivery_app,152,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | delivery_app,152,market_demand,11.392163321235024,67.40553156889726,0.3,20.221659470669177,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | delivery_app,152,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S3 | campus_shop,153,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Enugu | S3 | campus_shop,153,channel_readiness,75.58994197292068,75.58994197292068,0.15,11.338491295938102,"synthetic placeholder, collinear with wealth"
+Enugu | S3 | campus_shop,153,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S3 | campus_shop,153,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S3 | campus_shop,153,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | supermarket,154,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | supermarket,154,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | supermarket,154,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | supermarket,154,market_demand,11.474449913151549,67.8924076180483,0.3,20.367722285414487,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | supermarket,154,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | supermarket,155,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | supermarket,155,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | supermarket,155,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | supermarket,155,market_demand,11.21667806642968,66.36721456543498,0.3,19.910164369630493,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | supermarket,155,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | restaurant,156,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | restaurant,156,channel_readiness,51.96399345335517,51.96399345335517,0.15,7.794599018003275,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | restaurant,156,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | restaurant,156,market_demand,10.741598029879116,63.556245173715425,0.3,19.066873552114625,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | restaurant,156,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | gym_health_store,157,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | gym_health_store,157,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | gym_health_store,157,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | gym_health_store,157,market_demand,10.840215251539814,64.13974683713491,0.3,19.241924051140472,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | gym_health_store,157,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S1 | restaurant,158,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Oyo | S1 | restaurant,158,channel_readiness,50.65466448445171,50.65466448445171,0.15,7.598199672667755,"synthetic placeholder, collinear with wealth"
+Oyo | S1 | restaurant,158,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S1 | restaurant,158,market_demand,11.275267911980288,66.71388091602327,0.3,20.01416427480698,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S1 | restaurant,158,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | gym_health_store,159,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | gym_health_store,159,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | gym_health_store,159,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | gym_health_store,159,market_demand,10.58434075852226,62.62578011014626,0.3,18.787734033043876,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | gym_health_store,159,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | supermarket,160,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | supermarket,160,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | supermarket,160,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | supermarket,160,market_demand,10.61516794534032,62.808179436389395,0.3,18.842453830916817,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | supermarket,160,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | restaurant,161,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | restaurant,161,channel_readiness,51.96399345335517,51.96399345335517,0.15,7.794599018003275,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | restaurant,161,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | restaurant,161,market_demand,11.112646990369104,65.75168002789226,0.3,19.72550400836768,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | restaurant,161,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S3 | campus_shop,162,affordability,0.6261261261261262,76.07509117164746,0.2,15.215018234329492,synthetic survey max price vs synthetic shelf price
+Ogun | S3 | campus_shop,162,channel_readiness,14.042553191489358,14.042553191489358,0.15,2.1063829787234036,"synthetic placeholder, collinear with wealth"
+Ogun | S3 | campus_shop,162,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S3 | campus_shop,162,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S3 | campus_shop,162,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S3 | campus_shop,163,affordability,0.6936936936936937,84.51917664047777,0.2,16.903835328095553,synthetic survey max price vs synthetic shelf price
+Rivers | S3 | campus_shop,163,channel_readiness,96.247582205029,96.247582205029,0.15,14.43713733075435,"synthetic placeholder, collinear with wealth"
+Rivers | S3 | campus_shop,163,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S3 | campus_shop,163,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S3 | campus_shop,163,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | gym_health_store,164,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | gym_health_store,164,channel_readiness,67.69911504424779,67.69911504424779,0.15,10.154867256637168,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | gym_health_store,164,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | gym_health_store,164,market_demand,10.041011867284901,59.41099362070683,0.3,17.82329808621205,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | gym_health_store,164,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S1 | restaurant,165,affordability,0.0889487870619946,8.942714999597241,0.2,1.7885429999194482,synthetic survey max price vs synthetic shelf price
+Rivers | S1 | restaurant,165,channel_readiness,63.99345335515548,63.99345335515548,0.15,9.599018003273322,"synthetic placeholder, collinear with wealth"
+Rivers | S1 | restaurant,165,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S1 | restaurant,165,market_demand,11.001410007636846,65.09350934162657,0.3,19.52805280248797,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S1 | restaurant,165,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Ogun | S2 | campus_shop,166,affordability,0.017391304347826087,0,0.2,0,synthetic survey max price vs synthetic shelf price
+Ogun | S2 | campus_shop,166,channel_readiness,14.042553191489358,14.042553191489358,0.15,2.1063829787234036,"synthetic placeholder, collinear with wealth"
+Ogun | S2 | campus_shop,166,margin,28.3,70.90909090909092,0.2,14.181818181818185,synthetic unit economics (reported totals)
+Ogun | S2 | campus_shop,166,market_demand,8.141155132834683,48.169857983925674,0.3,14.450957395177701,mixed: real population x synthetic survey shares x synthetic choice model
+Ogun | S2 | campus_shop,166,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | restaurant,167,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | restaurant,167,channel_readiness,50.65466448445171,50.65466448445171,0.15,7.598199672667755,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | restaurant,167,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | restaurant,167,market_demand,11.338019426124255,67.08517116602724,0.3,20.12555134980817,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | restaurant,167,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S3 | campus_shop,168,affordability,0.7612612612612613,92.96326210930808,0.2,18.592652421861615,synthetic survey max price vs synthetic shelf price
+Oyo | S3 | campus_shop,168,channel_readiness,64.79690522243712,64.79690522243712,0.15,9.719535783365567,"synthetic placeholder, collinear with wealth"
+Oyo | S3 | campus_shop,168,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S3 | campus_shop,168,market_demand,0,0,0.3,0,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S3 | campus_shop,168,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S1 | delivery_app,169,affordability,0.1105121293800539,11.637539041401848,0.2,2.3275078082803695,synthetic survey max price vs synthetic shelf price
+Enugu | S1 | delivery_app,169,channel_readiness,29.965156794425088,29.965156794425088,0.15,4.494773519163763,"synthetic placeholder, collinear with wealth"
+Enugu | S1 | delivery_app,169,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S1 | delivery_app,169,market_demand,11.138589423024037,65.90517707792459,0.3,19.771553123377377,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S1 | delivery_app,169,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | supermarket,170,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | supermarket,170,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | supermarket,170,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | supermarket,170,market_demand,10.385508756678343,61.449324295804566,0.3,18.43479728874137,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | supermarket,170,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | campus_shop,171,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | campus_shop,171,channel_readiness,75.58994197292068,75.58994197292068,0.15,11.338491295938102,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | campus_shop,171,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | campus_shop,171,market_demand,7.691762069414977,45.51087413081352,0.3,13.653262239244055,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | campus_shop,171,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | gym_health_store,172,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | gym_health_store,172,channel_readiness,48.672566371681405,48.672566371681405,0.15,7.300884955752211,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | gym_health_store,172,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | gym_health_store,172,market_demand,9.812728953514904,58.060281669265535,0.3,17.41808450077966,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | gym_health_store,172,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | supermarket,173,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | supermarket,173,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | supermarket,173,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | supermarket,173,market_demand,9.91800622955337,58.683189764365515,0.3,17.604956929309655,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | supermarket,173,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | delivery_app,174,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | delivery_app,174,channel_readiness,65.38908246225319,65.38908246225319,0.15,9.808362369337978,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | delivery_app,174,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | delivery_app,174,market_demand,9.042120386940566,53.50071922297697,0.3,16.05021576689309,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | delivery_app,174,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | restaurant,175,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | restaurant,175,channel_readiness,63.99345335515548,63.99345335515548,0.15,9.599018003273322,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | restaurant,175,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | restaurant,175,market_demand,10.65343975017118,63.0346273265734,0.3,18.91038819797202,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | restaurant,175,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | gym_health_store,176,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | gym_health_store,176,channel_readiness,75.22123893805309,75.22123893805309,0.15,11.283185840707963,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | gym_health_store,176,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | gym_health_store,176,market_demand,9.347878292006792,55.30983778467848,0.3,16.592951335403544,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | gym_health_store,176,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | campus_shop,177,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | campus_shop,177,channel_readiness,96.247582205029,96.247582205029,0.15,14.43713733075435,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | campus_shop,177,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | campus_shop,177,market_demand,7.2214457144579605,42.72809064909048,0.3,12.818427194727144,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | campus_shop,177,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Oyo | S2 | campus_shop,178,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Oyo | S2 | campus_shop,178,channel_readiness,64.79690522243712,64.79690522243712,0.15,9.719535783365567,"synthetic placeholder, collinear with wealth"
+Oyo | S2 | campus_shop,178,margin,21.7,10.909090909090903,0.2,2.1818181818181808,synthetic unit economics (reported totals)
+Oyo | S2 | campus_shop,178,market_demand,7.9228876678563305,46.87840577364727,0.3,14.063521732094182,mixed: real population x synthetic survey shares x synthetic choice model
+Oyo | S2 | campus_shop,178,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Rivers | S2 | delivery_app,179,affordability,0.02608695652173913,1.086717086423379,0.2,0.21734341728467582,synthetic survey max price vs synthetic shelf price
+Rivers | S2 | delivery_app,179,channel_readiness,77.70034843205576,77.70034843205576,0.15,11.655052264808363,"synthetic placeholder, collinear with wealth"
+Rivers | S2 | delivery_app,179,margin,20.5,0,0.2,0,synthetic unit economics (reported totals)
+Rivers | S2 | delivery_app,179,market_demand,8.340938431932878,49.351942465562296,0.3,14.805582739668688,mixed: real population x synthetic survey shares x synthetic choice model
+Rivers | S2 | delivery_app,179,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)
+Enugu | S2 | delivery_app,180,affordability,0.04927536231884058,3.984629316885724,0.2,0.7969258633771448,synthetic survey max price vs synthetic shelf price
+Enugu | S2 | delivery_app,180,channel_readiness,29.965156794425088,29.965156794425088,0.15,4.494773519163763,"synthetic placeholder, collinear with wealth"
+Enugu | S2 | delivery_app,180,margin,22.5,18.181818181818183,0.2,3.6363636363636367,synthetic unit economics (reported totals)
+Enugu | S2 | delivery_app,180,market_demand,8.811083981702746,52.133715321462134,0.3,15.64011459643864,mixed: real population x synthetic survey shares x synthetic choice model
+Enugu | S2 | delivery_app,180,soy_supply,232.94334642382424,0,0.15,0,real NASS 2022/23 (imputed range for Enugu/Lagos/Ogun/Oyo/Rivers)

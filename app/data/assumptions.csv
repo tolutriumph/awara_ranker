@@ -1,0 +1,20 @@
+name,value,range,basis
+gower_variable_types,"ordinal: awara_frequency, age_band, income_band; interval: 1-5 scales, meat meals, max price; nominal: rest",,Gower (daisy); ordinal treated by rank
+pam_k,3,3-6,silhouette; smallest k within 0.02 of best (best k=3)
+gower_na_handling,pairwise (daisy),,"about 3% NA per column; no rows dropped, nothing imputed"
+segment_naming,rule-based on profile: max student share; then max daily+weekly awara share; then max median max price,,"names are labels for readability, not validated personas"
+segment_share_in_state,unweighted survey sample share,,assumes survey sample in each state is representative; n per state 60-200
+p_choose,"exp(U)/(exp(U)+exp(U_none)), format fried_seasoned_pack",,"binary product vs opt-out; IGNORES competing products, so it overstates take-up"
+choice_shelf_life,shelf_life_days_base of fried_seasoned_pack in that state,3-5 days,unit_economics_v1b (synthetic)
+addressable_channel_split,population x segment share in state x share of segment that eats awara AND prefers this channel,,user decision: volumes are additive across channels (brief formula counted each eater in every channel)
+soy_missing_fill,"Uniform(31.4, 434.5) t/100k; default run uses midpoint 232.9",31.4-434.5,"Enugu, Lagos, Ogun, Oyo, Rivers: no state-level NASS soy; range = min to 25th pct of 'reported' states (Yobe derived excluded); ASSUMPTION, not data"
+channel_readiness_scaling,"min-max WITHIN channel (pilot states), then min-max across opportunities",,"channel units differ (outlets/100k vs 0-1 index); pooled min-max would make street_market dominate; DEVIATION from brief, user decision"
+gym_health_store_density,supermarket density,,flagged proxy (brief)
+calibration_discount,0.5,0.3-0.7 (MC),brief default; stated-preference overstatement correction
+purchases_per_month,"daily=20, weekly=4, monthly=1, rarely=0.5",,brief; averaged among eaters in segment
+margin,"producer_margin_pct_base, fried_seasoned_pack",,rests on REPORTED unit-cost totals (3.3-4.7 pts below recomputed); synthetic
+weights_default,market_demand=0.3; affordability=0.2; margin=0.2; soy_supply=0.15; channel_readiness=0.15,Dirichlet conc 30 in MC,brief
+price_cost_mc,"triangular(low, base, high) per state; cost = reported_total_unit_cost_*",,unit_economics_v1b (synthetic); retail margin held at base
+coef_mc,"independent Normal(estimate, SE) per coefficient",,covariances ignored; failed/suspect segment models fall back to overall
+stageA_affordability,mean of wealth_index and wealth_upper_share scores,,brief gives one 0.4 weight for two criteria
+stageA_soy_NA,weights renormalised over available criteria,,brief; rewards soy-NA states (see screening_score_soy_as_0)

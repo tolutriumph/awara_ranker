@@ -1,0 +1,7 @@
+channel,density_channel,proxy_flag
+street_market,street_market,FALSE
+supermarket,supermarket,FALSE
+campus_shop,campus_institution,FALSE
+delivery_app,delivery_app,FALSE
+restaurant,restaurant,FALSE
+gym_health_store,supermarket,TRUE

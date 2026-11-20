@@ -1,0 +1,6 @@
+criterion,s_market_demand,s_affordability,s_margin,s_soy_supply,s_channel_readiness,note
+s_market_demand,1,-0.221,0.002,0.057,-0.05,weights NOT changed because of collinearity (brief)
+s_affordability,-0.221,1,-0.006,0.051,-0.083,weights NOT changed because of collinearity (brief)
+s_margin,0.002,-0.006,1,0.495,-0.493,weights NOT changed because of collinearity (brief)
+s_soy_supply,0.057,0.051,0.495,1,-0.648,weights NOT changed because of collinearity (brief)
+s_channel_readiness,-0.05,-0.083,-0.493,-0.648,1,weights NOT changed because of collinearity (brief)

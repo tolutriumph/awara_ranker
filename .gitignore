@@ -1,0 +1,17 @@
+# secrets
+.Renviron
+.env
+*.pem
+# raw data stays out of git (team AWS rule)
+inputs/
+raw/
+Hack the fork/
+# data-prep folder: keep the scripts and its README, ignore the data
+Data all/*
+!Data all/*.R
+!Data all/README_data.md
+# R / OS clutter
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
